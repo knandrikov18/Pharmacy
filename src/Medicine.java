@@ -1,10 +1,13 @@
+import java.time.LocalDate;
+
 public class Medicine {
     public String medicineName;
     public int price;
     public int quantity;
     public String dateOfExpiring;
+    public LocalDate expirationDate;
 
-    public Medicine(String medicineName, int price, int quantity, String dateOfExpiring) {
+    public Medicine() {
         this.medicineName = medicineName;
         this.price = price;
         this.quantity = quantity;
